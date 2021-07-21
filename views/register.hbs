@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Register</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="container">
+        <div class="register_section">
+            <h1>Register</h1>
+            <form action="/register" method="POST">
+                <input required class="form_control" type="text" name="firstname" placeholder="First Name *" value="">
+                <input required class="form_control" type="text" name="lastname" placeholder="Last Name *" value="">
+                <input required class="form_control" type="email" name="email" placeholder="Email *" value="">
+                <input required class="form_control" type="phone" name="phone" placeholder="Contact No. *" value="" minlength="10" maxlength="10">
+                <input required class="form_control" type="age" name="age" placeholder="Age *" >
+
+                <input required class="form_control" type="password" name="password" placeholder="Password *" value="">
+                <input required class="form_control" type="password" name="confirmpassword" placeholder="Confirm Password *" value="">
+                <div class="gender">
+                    <label>
+                        <input type="radio" name="gender" value="male" checked>
+                        <span>Male</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female">
+                        <span>Female</span>
+                    </label>                  
+                </div>
+                <input class="btn" type="submit" value="Register"></input>
+            </form>
+        </div>
+    </div>
+    <script>
+        const input = document.getElementsByClassName('form_control');
+    </script>
+</body>
+</html>

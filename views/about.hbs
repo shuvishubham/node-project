@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>About</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="container">
+    <div class="about_section">
+        <h1>About User</h1>
+        <div class="user_info">
+            <img src="images/user.png" alt="">
+            <h4><span>Name:</span> {{firstname}} {{lastname}}</h4>
+            <h4><span>Email:</span> {{email}}</h4>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

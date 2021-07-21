@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    overflow: hidden;
+    background-color: rgb(102, 10, 163);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    max-height: 14vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;;
+    cursor: none;
+}
+
+.navbar{
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius:100% 0% 0% 100% / 13% 0% 0% 21% ;
+    height: 3rem;
+}
+
+.navbar li{
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-right: .6rem;
+    font-size: 1.1rem;
+    font-weight: 1rem;
+    height: 100%;
+    font-weight: bold;
+}
+
+.navbar li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: .8rem;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.navbar li:hover, .navbar li a.active{
+ background-color: rgb(102, 10, 163);
+}
+
+.navbar li:hover a, .navbar li a.active{
+    color: white;
+}

@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    width: 100vw;
+    padding-top: 10px;
+}
+
+.login_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 90%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 38% 39% 0% 0% / 18% 19% 0% 0% ;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 40%;
+    padding: .5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+form img{
+    width: 4.9rem;
+}
+
+    
+.form_control{
+    width: 70%;
+    height: 2.5rem;
+    padding: .6rem;
+    margin-top: .6rem;
+    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+}
+
+.form_control::placeholder{
+    opacity: 90%;
+}
+
+.form_control:focus{
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn{
+    width: 40%;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    padding: .6rem;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    background-color: rgb(102, 10, 163) ;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.login_section h4{
+    font-family: cursive;
+    font-size: .9rem;
+    color: rgb(102, 10, 163);
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.login_section h4:hover{
+    color: rgb(41, 41, 192);
+}

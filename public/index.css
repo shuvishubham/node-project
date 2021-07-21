@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    width: 100vw;
+    padding-top: 10px;
+}
+
+.home_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 90%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 38% 39% 0% 0% / 18% 19% 0% 0%  ;
+}
+
+.home_section h1{
+    font-size: 2rem;
+}
+
+.home_section p{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(102, 10, 163);
+}
+
+.details{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 90%;
+    max-height: 85%;
+    margin-top: 20px;
+}
+
+.img_detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    margin: 0 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2rem;
+    text-align: justify;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(82, 78, 78);
+}
+
+.img_detail:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateY(-10px);
+}
+
+.details img{
+    max-height: 20%;
+    margin-bottom: 1.25rem;
+}
